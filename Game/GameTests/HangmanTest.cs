@@ -6,7 +6,6 @@ namespace GameTests
     public class HangmanTest
     {
         // A game is started
-        // A user starts with 5 lives
         // A word is chosen, which is the correct answer
         // A user chooses a letter at random
         // the users choice of letters should be logged
@@ -26,7 +25,15 @@ namespace GameTests
         {
             GameClasses.Hangman hangman = new GameClasses.Hangman();
             Assert.Equal(hangman.playerLives, 5);
+        }
 
+        [Fact]
+        public void CheckWhenTheGameStartsThereIsAnAnswer()
+        {
+            GameClasses.Hangman hangman = new GameClasses.Hangman();
+            Assert.IsType<string>(hangman.answer);
+            Assert.NotNull(hangman.answer);
+            Assert.NotEqual(hangman.answer, "");
         }
     }
 }

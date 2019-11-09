@@ -3,12 +3,14 @@ namespace GameClasses
 {
     public class Hangman
     {
-        //private int playerLives;
         public int playerLives { get; set; }
+        public string answer { get; }
+
 
         public Hangman()
         {
             playerLives = 5;
+            answer = "answer";
 
         }
     }
