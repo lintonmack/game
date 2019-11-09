@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Xunit;
 
 namespace GameTests
@@ -6,7 +7,6 @@ namespace GameTests
     public class HangmanTest
     {
         // A game is started
-        // A word is chosen, which is the correct answer
         // A user chooses a letter at random
         // the users choice of letters should be logged
         // the users lives shoud be tracked
@@ -35,5 +35,15 @@ namespace GameTests
             Assert.NotNull(hangman.answer);
             Assert.NotEqual(hangman.answer, "");
         }
+
+        [Fact]
+        public void CheckWhenTheGameStartsAnEmptyGuessesDictionaryIsCreated()
+        {
+            GameClasses.Hangman hangman = new GameClasses.Hangman();
+            Assert.IsType<Dictionary<char, char>>(hangman.guesses);
+            Assert.Empty(hangman.guesses);
+        }
+
+
     }
 }
