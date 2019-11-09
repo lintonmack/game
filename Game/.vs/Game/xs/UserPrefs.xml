@@ -1,16 +1,22 @@
 ﻿<Properties StartupConfiguration="{39D0BB35-7DCC-4214-B4F2-AD1C6DDD259B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GameTests/UnitTest1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Classes/Game.cs">
     <Files>
-      <File FileName="GameTests/UnitTest1.cs" Line="11" Column="1" />
+      <File FileName="GameTests/UnitTest1.cs" Line="17" Column="1" />
+      <File FileName="Game/Classes/Game.cs" Line="7" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Game" expanded="True">
-            <Node name="Game" expanded="True" />
-            <Node name="GameTests" expanded="True">
-              <Node name="UnitTest1.cs" selected="True" />
+            <Node name="Game" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Classes" expanded="True">
+                <Node name="Game.cs" selected="True" />
+              </Node>
             </Node>
+            <Node name="GameTests" expanded="True" />
           </Node>
         </State>
       </Pad>

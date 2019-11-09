@@ -14,7 +14,7 @@
         "outputPath": "/Users/linton/Desktop/game/Game/Game/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/linton/.config/NuGet/NuGet.Config"
+          "/Users/linton/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

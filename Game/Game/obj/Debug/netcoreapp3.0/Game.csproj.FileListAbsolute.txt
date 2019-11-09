@@ -4,8 +4,8 @@
 /Users/linton/Desktop/game/Game/Game/bin/Debug/netcoreapp3.0/Game.runtimeconfig.dev.json
 /Users/linton/Desktop/game/Game/Game/bin/Debug/netcoreapp3.0/Game.dll
 /Users/linton/Desktop/game/Game/Game/bin/Debug/netcoreapp3.0/Game.pdb
-/Users/linton/Desktop/game/Game/Game/obj/Debug/netcoreapp3.0/Game.csprojAssemblyReference.cache
 /Users/linton/Desktop/game/Game/Game/obj/Debug/netcoreapp3.0/Game.AssemblyInfoInputs.cache
 /Users/linton/Desktop/game/Game/Game/obj/Debug/netcoreapp3.0/Game.AssemblyInfo.cs
 /Users/linton/Desktop/game/Game/Game/obj/Debug/netcoreapp3.0/Game.dll
 /Users/linton/Desktop/game/Game/Game/obj/Debug/netcoreapp3.0/Game.pdb
+/Users/linton/Desktop/game/Game/Game/obj/Debug/netcoreapp3.0/Game.csprojAssemblyReference.cache

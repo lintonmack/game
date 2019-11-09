@@ -1,3 +1,7 @@
+/Users/linton/Desktop/game/Game/GameTests/obj/Debug/netcoreapp3.0/GameTests.AssemblyInfoInputs.cache
+/Users/linton/Desktop/game/Game/GameTests/obj/Debug/netcoreapp3.0/GameTests.AssemblyInfo.cs
+/Users/linton/Desktop/game/Game/GameTests/obj/Debug/netcoreapp3.0/GameTests.csprojAssemblyReference.cache
+/Users/linton/Desktop/game/Game/GameTests/bin/Debug/netcoreapp3.0/Game
 /Users/linton/Desktop/game/Game/GameTests/bin/Debug/netcoreapp3.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
 /Users/linton/Desktop/game/Game/GameTests/bin/Debug/netcoreapp3.0/xunit.runner.reporters.netcoreapp10.dll
 /Users/linton/Desktop/game/Game/GameTests/bin/Debug/netcoreapp3.0/xunit.runner.utility.netcoreapp10.dll
@@ -86,9 +90,8 @@
 /Users/linton/Desktop/game/Game/GameTests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /Users/linton/Desktop/game/Game/GameTests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /Users/linton/Desktop/game/Game/GameTests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/Users/linton/Desktop/game/Game/GameTests/obj/Debug/netcoreapp3.0/GameTests.csprojAssemblyReference.cache
-/Users/linton/Desktop/game/Game/GameTests/obj/Debug/netcoreapp3.0/GameTests.AssemblyInfoInputs.cache
-/Users/linton/Desktop/game/Game/GameTests/obj/Debug/netcoreapp3.0/GameTests.AssemblyInfo.cs
+/Users/linton/Desktop/game/Game/GameTests/bin/Debug/netcoreapp3.0/Game.dll
+/Users/linton/Desktop/game/Game/GameTests/bin/Debug/netcoreapp3.0/Game.pdb
 /Users/linton/Desktop/game/Game/GameTests/obj/Debug/netcoreapp3.0/GameTests.csproj.CopyComplete
 /Users/linton/Desktop/game/Game/GameTests/obj/Debug/netcoreapp3.0/GameTests.dll
 /Users/linton/Desktop/game/Game/GameTests/obj/Debug/netcoreapp3.0/GameTests.pdb

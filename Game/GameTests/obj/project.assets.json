@@ -1962,6 +1962,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Game/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Game.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Game.dll": {}
+        }
       }
     }
   },
@@ -6569,10 +6579,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Game/1.0.0": {
+      "type": "project",
+      "path": "../Game/Game.csproj",
+      "msbuildProject": "../Game/Game.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "Game >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "coverlet.collector >= 1.0.1",
       "xunit >= 2.4.0",
@@ -6592,7 +6608,7 @@
       "outputPath": "/Users/linton/Desktop/game/Game/GameTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/linton/.config/NuGet/NuGet.Config"
+        "/Users/linton/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -6602,7 +6618,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/linton/Desktop/game/Game/Game/Game.csproj": {
+              "projectPath": "/Users/linton/Desktop/game/Game/Game/Game.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
