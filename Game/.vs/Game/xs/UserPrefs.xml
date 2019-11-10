@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{39D0BB35-7DCC-4214-B4F2-AD1C6DDD259B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GameTests/EmptyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Classes/Hangman.cs">
     <Files>
-      <File FileName="GameTests/UnitTest1.cs" Line="17" Column="4" />
-      <File FileName="Game/Classes/Game.cs" Line="11" Column="1" />
-      <File FileName="Game/Classes/Hangman.cs" Line="2" Column="15" />
-      <File FileName="GameTests/EmptyClass.cs" Line="1" Column="1" />
+      <File FileName="GameTests/GameTest.cs" Line="1" Column="1" />
+      <File FileName="Game/Classes/Game.cs" Line="1" Column="1" />
+      <File FileName="GameTests/HangmanTest.cs" Line="51" Column="52" />
+      <File FileName="Game/Classes/Hangman.cs" Line="21" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,11 +12,11 @@
           <Node name="Game" expanded="True">
             <Node name="Game" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Classes" expanded="True" />
+              <Node name="Classes" expanded="True">
+                <Node name="Hangman.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="GameTests" expanded="True">
-              <Node name="EmptyClass.cs" selected="True" />
-            </Node>
+            <Node name="GameTests" expanded="True" />
           </Node>
         </State>
       </Pad>

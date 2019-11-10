@@ -44,6 +44,14 @@ namespace GameTests
             Assert.Empty(hangman.guesses);
         }
 
+        [Fact]
+        public void CheckGameHasEndedWhenUserRunsOutOfLives()
+        {
+            GameClasses.Hangman hangman = new GameClasses.Hangman();
+            hangman.playerLives = 0;
+            Assert.True(hangman.HasGameFinished());
+        }
+
 
     }
 }

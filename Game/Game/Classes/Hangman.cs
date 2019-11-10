@@ -17,5 +17,14 @@ namespace GameClasses
             guesses = new Dictionary<char, char>();
 
         }
+
+        public Boolean HasGameFinished()
+        {
+            if(playerLives == 0)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
